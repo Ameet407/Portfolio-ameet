@@ -9,7 +9,9 @@ const nextConfig = {
     ],
   },
   experimental: {
-    serverActions: true,
+    serverActions: {
+      enabled: true, 
+    },
   },
 };
 
