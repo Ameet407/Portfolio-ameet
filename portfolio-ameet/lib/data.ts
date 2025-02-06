@@ -44,7 +44,7 @@ export const projectsData = [
   {
     title: "Paytm Clone - Full-Stack Application",
     description:
-      "Features user sign-up, log-in, balance checks, fund transfers, and transaction views. Utilizes React for the frontend and Express.js for the backend.",
+      "Features user sign-up, log-in, balance checks, fund transfers, and transaction views.",
     tags: ["REACT", "NODE", "MONGODB", "Express", "JWT Authentication"],
     imageUrl: paytm ,
   },
