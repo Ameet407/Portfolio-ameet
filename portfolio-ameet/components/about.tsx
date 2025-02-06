@@ -21,7 +21,7 @@ export default function About() {
     >
       <SectionHeading>About Me</SectionHeading>
 <p className="mb-3">
-  ☕ Fueled by <span className="font-bold">caffeine and code</span>, I’m a <span className="font-bold">full-stack developer</span> passionate about building clean, efficient, and scalable web applications. Currently pursuing my <span className="font-bold">Bachelor’s in Computer Science</span> at Chandigarh University, I’m constantly sharpening my skills to create impactful solutions.
+  ☕ Fuelled by <span className="font-bold">caffeine and code</span>, I’m a <span className="font-bold">full-stack developer</span> passionate about building clean, efficient, and scalable web applications. Currently pursuing my <span className="font-bold">Bachelor’s in Computer Science</span> at Chandigarh University, I’m constantly sharpening my skills to create impactful solutions.
 </p>
 
 <p className="mb-3">

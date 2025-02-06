@@ -5,6 +5,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import paytm from "@/public/paytm.png"
 import LMS from "@/public/LMS.jpeg"
 import blogapp from "@/public/blogapp.jpeg"
+import dashboard from "@/public/dashboard.jpeg"
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
 
@@ -33,6 +34,13 @@ export const links = [
 
 
 export const projectsData = [
+  {
+    title: "BOT AI",
+    description:
+      "Created a ChatGPT-like AI chat app using the Gemini API, featuring intelligent responses and a sleek, real-time interface.",
+    tags: ["React", "Node", "Express", "Clerk", "Mongodb","gemini api"],
+    imageUrl: dashboard,
+  },
   {
     title: "Paytm Clone - Full-Stack Application",
     description:
