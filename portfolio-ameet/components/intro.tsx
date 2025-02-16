@@ -65,7 +65,7 @@ export default function Intro() {
         <p>
           <span className="font-bold">Hello, I'm Ameet Kumar Mishra.</span><br />
           I'm a <span className="font-bold">full-stack developer</span> 💻,
-          a fresher looking for <span className="font-bold">work opportunities</span> 👜 to learn and grow.
+          looking for <span className="font-bold">work opportunities</span> 👜 to learn and grow.
         </p>
 
 
