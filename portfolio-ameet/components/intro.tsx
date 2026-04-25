@@ -32,7 +32,7 @@ export default function Intro() {
           >
             <Image src="/pp.jpg"
              
-              alt="Ricardo portrait"
+              alt="Ameet portrait"
               width="192"
               height="192"
               quality="95"
@@ -41,19 +41,7 @@ export default function Intro() {
             />
           </motion.div>
 
-          <motion.span
-            className="absolute bottom-0 right-0 text-4xl"
-            initial={{ opacity: 0, scale: 0 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{
-              type: "spring",
-              stiffness: 125,
-              delay: 0.1,
-              duration: 0.7,
-            }}
-          >
-            👋
-          </motion.span>
+
         </div>
       </div>
 
@@ -64,7 +52,7 @@ export default function Intro() {
       >
         <p>
           <span className="font-bold">Hello, I'm Ameet Kumar Mishra.</span><br />
-          I'm a <span className="font-bold">full-stack developer</span> 💻,
+          I am a <span className="font-bold">Software Engineer</span>,
           let's connect and build something together.
         </p>
 

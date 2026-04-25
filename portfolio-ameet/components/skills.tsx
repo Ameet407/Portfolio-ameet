@@ -36,7 +36,8 @@ export default function Skills() {
                         whileInView='animate'
                         whileHover={{
                             scale: 1.1,
-                            backgroundColor: "rgb(255, 102, 255)"
+                            backgroundColor: "rgb(51, 65, 85)",
+                            color: "rgb(255, 255, 255)"
                         }}
                         transition={{
                             type: 'spring',

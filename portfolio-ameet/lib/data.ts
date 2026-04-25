@@ -8,6 +8,9 @@ import blogapp from "@/public/blogapp.jpeg"
 import dashboard from "@/public/dashboard.jpeg"
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
+import kwezyhq from "@/public/kwezyhq.jpeg";
+import superr from "@/public/superr.jpeg";
+import { formatDuration } from "./utils";
 
 export const links = [
   {
@@ -15,8 +18,8 @@ export const links = [
     hash: "#home",
   },
   {
-    name: "About",
-    hash: "#about",
+    name: "Experience",
+    hash: "#experience",
   },
   {
     name: "Projects",
@@ -78,6 +81,9 @@ export const skillsData = [
   "Bootstrap",
   "Prisma",
   "MongoDB",
+  "Claude Code",
+  "Agentic AI",
+  "Automation",
   "Redux",
   "Express",
   "Websockets",
@@ -89,4 +95,23 @@ export const skillsData = [
   "Docker",
   "Python",
   "Framer Motion"
+] as const;
+
+export const experiencesData = [
+  {
+    title: "Product Engineer",
+    company: "KwezyHQ",
+    type: "Full-time",
+    date: formatDuration("2025-09-01"),
+    location: "India",
+    icon: kwezyhq,
+  },
+  {
+    title: "Product Engineer Intern",
+    company: "Superr",
+    type: "Internship",
+    date: formatDuration("2025-06-01", "2025-09-01"),
+    location: "",
+    icon: superr,
+  },
 ] as const;
